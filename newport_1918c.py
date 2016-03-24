@@ -170,7 +170,7 @@ class Newport_1918c():
                 self.write('PM:FILT 1')  # Analog filtering
             elif filter_type == 2:
                 self.write('PM:FILT 2')  # Digital filtering
-            elif filter_type == 1:
+            elif filter_type == 3:
                 self.write('PM:FILT 3')  # Analog and Digital filtering
 
         else:  # if the user gives a float or string
